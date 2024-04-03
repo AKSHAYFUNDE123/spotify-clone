@@ -1,0 +1,492 @@
+*{
+    font-family: 'montserrat',sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    background-color: red;
+    height: 100vh;
+    width: 18rem;
+    background-color: black;
+}
+.nav-box1{
+    background-color: #121212;
+    height: 5.5rem;
+    border-radius: 0.56rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    line-height: 38px;
+    font-size: 1rem;
+}
+@media(max-width:390px)
+    {
+        .mediaquery6{
+            display: none;
+        }
+    }
+.search-opacity{
+    display: inline;
+    opacity: 0.5;
+}
+.search-opacity:hover{
+    opacity: 1;
+}   
+ 
+/* second nav-box */
+
+.nav-box2{
+  background-color: #121212;
+  height: 24rem;
+  border-radius: 0.56rem;
+  margin-top: 0.5rem;
+  overflow:auto; 
+}
+.extra-div{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    opacity: 0.5;
+}
+.extra-div:hover{
+    opacity: 1;
+}
+.libararyimage{
+    height: 1.2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+}
+.plusarro{
+       margin-top: 1rem;    
+       padding-left: 6px; 
+}
+.nav-under-boxes1{
+    background-color:#242424;
+    height: 7.4rem;
+    width: 17.1rem;
+    margin-left: 0.5rem;
+    border-radius: 0.56rem;
+}
+.nav-under-box-content1{
+    font-weight: 700;
+    font-size:1rem;
+    padding:15px 0px 0px 1rem;
+    margin-top: 3px;
+   
+}
+.nav-under-box-content2{
+    font-weight: 700;
+    font-size:0.7rem;
+    padding:11px 0px 0px 1rem;
+    margin-top: 3px;
+    position: relative;
+    bottom: 15px;
+}
+.nav-under-boxes2{
+    background-color:#242424;
+    height: 10rem;
+    width: 17.1rem;
+    margin-left: 0.5rem;
+    border-radius: 0.56rem;
+    margin-top: 22px;
+}
+
+
+
+
+
+.badge{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1.3rem;
+    margin-left: 17px;
+    padding: 7px 7px 7px 7px;
+    font-weight: 700;
+    position: relative;
+    bottom: 14px;
+   
+}
+.badge:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1.3rem;
+    margin-left: 17px;
+    padding: 8px 9px 8px 9px;
+    font-weight: 700;
+    position: relative;
+    bottom: 14px;
+}
+.badge-hover{
+    background-color:black;
+    color:white;
+    border: none;
+    border-radius: 1.3rem;
+    margin-left: 17px;
+    padding: 8px 9px 8px 9px;
+    font-weight: 700;
+    position: relative;
+    bottom: 14px;
+}
+.badge-hover:hover{
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 1.3rem;
+    margin-left: 17px;
+    padding: 8px 9px 8px 9px;
+    font-weight: 700;
+   
+}
+
+
+
+
+
+
+
+
+     /* main-content-start */
+
+.main-content{
+    background-color: #121212;
+    height: 100vh;
+    flex: 1;
+    margin-left: 0.5rem;
+    border-radius:0.56rem ;
+    overflow: scroll;
+    padding:0 1.5rem 0 1.5rem;
+}
+.sticky-nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #121212;
+    position:sticky;
+    top: 0px;
+    z-index: 10;
+}
+.top-margin1{
+    margin-top: 1rem;
+}
+.top-margin{
+    margin-top: 1.7rem;
+    
+}
+.sticky-nav-icons{
+    margin-left: 1rem;
+}
+.right-margin1{
+    margin-right: 0rem;
+}
+.right-margin2{
+    margin-right: 2rem;
+   
+}
+.extra-position{
+    position: relative;
+    bottom: 0.8rem;
+    font-size: 1.3rem;
+    
+   
+}
+@media(max-width:1000px){
+    .mediaquery{
+        display: none;
+    }
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.udarline:hover{
+    text-decoration:underline;
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin-right: 0.7rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+    
+}
+.card:hover{
+    opacity: 1;
+    box-shadow: 2px 2px 6px black;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 0.4rem;
+    opacity: 1;
+    
+}
+.card-title{
+    font-weight: 600;
+    opacity: 1;
+  
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+    
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 6rem;
+
+}
+.line{
+    height:10px ;
+    width: 85%;
+    border-top: 2px solid white;
+    opacity: 0.2;
+}
+
+
+
+
+/* music-player_start */
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5.4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-music-1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+
+    
+}
+@media(max-width:770px){
+    .mediaquery2{
+        display: none;
+    }
+}
+
+.music-image{
+    height:3rem;
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 1.4rem;
+    border-radius: 3px;
+}
+@media(max-width:327px){
+    .mediaquer5{
+       display: none;
+    }
+}
+.music-1-headar{
+    position: absolute;
+    bottom: 2.9rem;
+    left: 5.5rem;
+}
+.music-info{
+    font-size: 12px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 17px;
+    text-decoration: none;
+    
+}
+@media(max-width:510px){
+    .mediaquery3{
+        display: none;
+    }
+}
+
+.music-1-icon1{
+    height: 1.9rem;
+    width: 1.9rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    opacity: 0.5;
+    
+}
+.music-1-icon1:hover{
+    opacity: 1;
+}
+.music-1-icon2{
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    opacity: 0.5; 
+}
+.music-1-icon2:hover{
+    opacity: 1;
+}
+
+
+.div-music-2{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.player-control-icon{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.5rem;
+    
+}
+.player-control{
+    height: 2rem;
+    width: 100%;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.icon-3-size{
+    height: 2rem;
+    width: 2rem;
+}
+.icon-3-size:hover{
+      height: 2.2rem;
+      width: 2.2rem;
+}
+.icon-opaciy{
+    opacity: 0.6;
+}
+.icon-opaciy:hover{
+    opacity: 1;
+}
+/* play-backbar -start*/
+.play-backbar{
+    display:flex ;
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+.progrees-bar{
+    appearance: none;
+    width:70%;
+    cursor: pointer;
+    background-color:#ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+    margin-top: 1rem;
+}
+.progrees-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+}
+.music-time{
+    font-size: 13px;
+    margin:9px 8px 8px 8px;
+}
+/* div-music-3 */
+@media(max-width:1000px){
+    .mediaquery1{
+        display: none;
+    }
+}
+
+.div-music-3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.8rem;
+}
+.music-3-icon1{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0.6rem;
+    opacity: 0.7;
+}
+.music-3-icon1:hover{
+    opacity: 1;
+}
+
+.music-3-icon2{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0.6rem;
+    opacity: 0.7;
+}
+.music-3-icon2:hover{
+    opacity: 1;
+}
+.music-3-icon3{
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-top: 0.7rem;
+    opacity: 0.7;
+}
+.music-3-icon3:hover{
+    opacity: 1;
+}
+.music-3-icon4{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+    opacity: 0.7;
+    
+}
+.music-3-icon4:hover{
+    opacity: 1;
+}
+.music-3-icon5{
+    height: 1.9rem;
+    width: 1.9rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+.music-3-icon5:hover{
+    opacity: 1;
+}
+.music-3-icon6{
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-top: 1.3rem;
+    margin-right: 10px;
+    opacity: 0.7;
+   
+}
+.music-3-icon6:hover{
+    opacity: 1;
+}
+.sound-value{
+    appearance: none;
+    height: 0.2rem;
+    cursor: pointer;
+    margin-top: 1.75rem;
+    border-radius: 1rem;
+}
+@media(max-width:495px){
+    .mediaquery4{
+        display: none;
+    }
+}
+.sound-value::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+}
